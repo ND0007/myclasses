@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-03T08:16:37.040Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="lEHuV9wjGfF8RfnwVA-x" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-03T08:23:07.909Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="2_a6lgMYcH-VX1zR1GtG" version="22.1.5" type="github">
   <diagram name="Page-1" id="DWxzMCH_1yADVqfLbKzR">
     <mxGraphModel dx="1266" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,7 +14,7 @@
           <mxGeometry x="745" y="305" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pEXNB3gbHOLg0qpx5999-31" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="405" y="930" width="259.5" height="100" as="geometry" />
+          <mxGeometry x="870" y="990" width="259.5" height="100" as="geometry" />
         </mxCell>
         <mxCell id="pEXNB3gbHOLg0qpx5999-48" value="" style="group" vertex="1" connectable="0" parent="pEXNB3gbHOLg0qpx5999-31">
           <mxGeometry width="240.85000000000002" height="100" as="geometry" />
@@ -143,6 +143,30 @@
         </mxCell>
         <mxCell id="pEXNB3gbHOLg0qpx5999-5" value="ECS&lt;br&gt;Supplier Portal UI" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ecs;fillColor=#F58534;gradientColor=none;" vertex="1" parent="pEXNB3gbHOLg0qpx5999-73">
           <mxGeometry x="58.879999999999995" y="35" width="31" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pEXNB3gbHOLg0qpx5999-75" value="Employees Portal" style="fillColor=none;strokeColor=#5A6C86;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#5A6C86;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="630" width="150" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="pEXNB3gbHOLg0qpx5999-76" value="API Gateway" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.api_gateway;" vertex="1" parent="1">
+          <mxGeometry x="269.38" y="755" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pEXNB3gbHOLg0qpx5999-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pEXNB3gbHOLg0qpx5999-77" target="pEXNB3gbHOLg0qpx5999-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pEXNB3gbHOLg0qpx5999-77" value="Employees Portal API" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" vertex="1" parent="1">
+          <mxGeometry x="270.13" y="827" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pEXNB3gbHOLg0qpx5999-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pEXNB3gbHOLg0qpx5999-82" target="pEXNB3gbHOLg0qpx5999-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pEXNB3gbHOLg0qpx5999-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pEXNB3gbHOLg0qpx5999-76" target="pEXNB3gbHOLg0qpx5999-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pEXNB3gbHOLg0qpx5999-82" value="ECS&lt;br&gt;Employees Portal UI" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ecs;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="268.88" y="665" width="31" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pEXNB3gbHOLg0qpx5999-83" value="DynamoDB" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.dynamo_db;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="268.88" y="899" width="30" height="31" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
